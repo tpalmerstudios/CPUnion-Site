@@ -1,12 +1,12 @@
 body {
-	background-color: #009999;
 	height: 100vh;
 	width: 100vw;
 	margin: 0;
 	padding: 0;
+	font-family: arial;
 }
 header {
-	background-color: #00CC00;
+	background-color: #FFFFFF;
 	height: 25vh;
 	width: 100vw;
 }
@@ -20,32 +20,52 @@ div.mainContent {
 nav.menu {
 	width: 20vw;
 	height: 100%;
-	background-color: #FF0000;
+	background-color: #AD151D;
 	float: left;
 	display: inline-block;
 }
 a.menu {
-	width: 100%;
+	font-size: 2em;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 0;
+	margin: 0;
 	display: block;
 	height: 20%;
-	color: #FF7400;
-	text-align: center;
-	font-size: 2em;
+}
+a.menu:hover {
+	background-color: #949494;
+	color: #AD151D;
 }
 a.current {
-	background-color: #009999;
-	color: #FF0000;
+	background-color: #949494;
+	color: #AD151D;
+}
+p.menuParagraph {
+	
+	top: 50%;
+	left: 50%;
+	transform: translate(0%, 30%);
+	height: 100%;
+	width: 100%;
+	/*
+	padding: 10% 0 10% 0;
+	*/
+	margin: 0;
 }
 article.main {
 	width: 80vw;
 	height: 100%;
 	float: left;
 	display: inline-block;
+	background-color: #0D6C64;
 }
-
+img.photos {
+	display: none;
+}
 footer {
 	clear: left;
-	background-color: #FF7400;
+	background-color: #78A514;
 	height: 25vh;
 }
 
@@ -54,11 +74,15 @@ nav.footer {
 }
 a.footer {
 	width: 50%;
-	height: 33%;
 	text-align: center;
 	display: inline;
 	float: left;
-	color: #009999;
+	color: #FFFFFF;
+	font-size: 1.25em;
+}
+a.footer:hover {
+	color: #545454;
+	background-color: #6D9612;
 }
 a {
 	text-decoration: none;
