@@ -1,48 +1,67 @@
 body {
 	background-color: #009999;
+	height: 100vh;
+	width: 100vw;
+	margin: 0;
+	padding: 0;
+}
+header {
+	background-color: #00CC00;
+	height: 25vh;
+	width: 100vw;
+}
+img.header {
+	height: 100%;
+}
+div.mainContent {
+	height: 50vh;
+	width: 100vw;
+}
+nav.menu {
+	width: 20vw;
+	height: 100%;
+	background-color: #FF0000;
+	float: left;
+	display: inline-block;
+}
+a.menu {
+	width: 100%;
+	display: block;
+	height: 20%;
+	color: #FF7400;
+	text-align: center;
+	font-size: 2em;
+}
+a.current {
+	background-color: #009999;
+	color: #FF0000;
+}
+article.main {
+	width: 80vw;
+	height: 100%;
+	float: left;
+	display: inline-block;
+}
+
+footer {
+	clear: left;
+	background-color: #FF7400;
+	height: 25vh;
+}
+
+nav.footer {
+	width: 100%;
+}
+a.footer {
+	width: 50%;
+	height: 33%;
+	text-align: center;
+	display: inline;
+	float: left;
+	color: #009999;
 }
 a {
 	text-decoration: none;
 }
-header {
-	background-color: #00CC00;
-	height: 25%;
-}
-div.mainContent {
-	min-height: 50%;
-	min-width: 100%;
-}
-nav.menu {
-	width: 20%;
-	display: inline;
-	background-color: #FF0000;
-	height: 100%;
-	float: left;
-}
-a.menu {
-	width: 100%;
-	display: inline-block;
-	height: 20%;
-	color: #FF7400;
-	text-align: center;
-}
-article.mainContent {
-	width: 70%;
-	display: inline;
-	float: right;
-}
-footer {
-	background-color: #FF7400;
-	height: 20%;
-}
-nav.footer {
-	width: 100%;
-}
-a.footerMain {
-	display: inline-block;
-	float: left;
-	width: 50%;
-	/*text-align: center;*/
-	font-size: 1.5em;
-}
+
 
