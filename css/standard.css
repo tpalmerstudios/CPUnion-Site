@@ -48,9 +48,6 @@ p.menuParagraph {
 	transform: translate(0%, 30%);
 	height: 100%;
 	width: 100%;
-	/*
-	padding: 10% 0 10% 0;
-	*/
 	margin: 0;
 }
 article.main {
@@ -61,7 +58,14 @@ article.main {
 	background-color: #0D6C64;
 }
 img.photos {
-	display: none;
+	/*display: none;*/
+	width: 50%;
+	float: left;
+}
+img.noscript {
+	width: 50%;
+	display: inline-block;
+	float: left;
 }
 footer {
 	clear: left;
