@@ -58,7 +58,7 @@ article.main {
 	background-color: #0D6C64;
 }
 img.photos {
-	/*display: none;*/
+	display: none;
 	width: 50%;
 	float: left;
 }
@@ -66,6 +66,12 @@ img.noscript {
 	width: 50%;
 	display: inline-block;
 	float: left;
+}
+a.photosButtons {
+	color: #FFFFFF;
+	font-size: 4em;
+	background-color: #949494;
+	opacity: 50%;
 }
 footer {
 	clear: left;
