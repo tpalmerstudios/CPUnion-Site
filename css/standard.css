@@ -13,9 +13,11 @@ header {
 img.header {
 	height: 100%;
 }
-div.mainContent {
+/*All is good through here*/
+div#mainContentHolder {
 	height: 50vh;
 	width: 100vw;
+	float: left;
 }
 nav.menu {
 	width: 20vw;
@@ -50,28 +52,41 @@ p.menuParagraph {
 	width: 100%;
 	margin: 0;
 }
-article.main {
+article.mainContent {
 	width: 80vw;
 	height: 100%;
-	float: left;
 	display: inline-block;
 	background-color: #0D6C64;
 }
-img.photos {
-	display: none;
+div#mainArticle {
+	height: 50vh;
+	width: 100vw;
+}
+div.photoHolder {
 	width: 50%;
-	float: left;
+	display: inline-block;
+	margin:  2%;
 }
 img.noscript {
 	width: 50%;
 	display: inline-block;
 	float: left;
 }
+img.photos {
+	display: none;
+	width: 100%;
+}
 a.photosButtons {
 	color: #FFFFFF;
 	font-size: 4em;
 	background-color: #949494;
 	opacity: 50%;
+}
+div.mainText {
+	float: left;
+	margin: 2%;
+	display: inline-block;
+	width: 50%;
 }
 footer {
 	clear: left;
@@ -97,5 +112,4 @@ a.footer:hover {
 a {
 	text-decoration: none;
 }
-
 
