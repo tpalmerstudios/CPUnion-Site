@@ -1,0 +1,29 @@
+div#mainArticle {
+	height: 50vh;
+	width: 100vw;
+}
+div.photoHolder {
+	display: inline-block;
+	margin:  2%;
+	max-height: 100%;
+	max-width: 70%;
+}
+img.noscript {
+	display: inline-block;
+}
+img.photos {
+	display: none;
+}
+/*
+a.photosButtons {
+	color: #FFFFFF;
+	font-size: 4em;
+	background-color: #949494;
+	opacity: 50%;
+}*/
+div.mainText {
+	margin: 2%;
+	display: inline-block;
+	width: 20%;
+	vertical-align: top;
+}
