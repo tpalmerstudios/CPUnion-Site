@@ -17,14 +17,13 @@ img.header {
 div#mainContentHolder {
 	height: 50vh;
 	width: 100vw;
-	float: left;
 }
 nav.menu {
 	width: 20vw;
 	height: 100%;
 	background-color: #AD151D;
-	float: left;
 	display: inline-block;
+	float: left;
 }
 a.menu {
 	font-size: 2em;
@@ -36,15 +35,14 @@ a.menu {
 	height: 20%;
 }
 a.menu:hover {
-	background-color: #949494;
+	background-color: #0D6C64;
 	color: #AD151D;
 }
 a.current {
-	background-color: #949494;
+	background-color: #0D6C64;
 	color: #AD151D;
 }
 p.menuParagraph {
-	
 	top: 50%;
 	left: 50%;
 	transform: translate(0%, 30%);
@@ -63,30 +61,29 @@ div#mainArticle {
 	width: 100vw;
 }
 div.photoHolder {
-	width: 50%;
 	display: inline-block;
 	margin:  2%;
+	max-height: 100%;
+	max-width: 70%;
 }
 img.noscript {
-	width: 50%;
 	display: inline-block;
-	float: left;
 }
 img.photos {
 	display: none;
-	width: 100%;
 }
+/*
 a.photosButtons {
 	color: #FFFFFF;
 	font-size: 4em;
 	background-color: #949494;
 	opacity: 50%;
-}
+}*/
 div.mainText {
-	float: left;
 	margin: 2%;
 	display: inline-block;
-	width: 50%;
+	width: 20%;
+	vertical-align: top;
 }
 footer {
 	clear: left;
@@ -101,8 +98,8 @@ a.footer {
 	width: 50%;
 	text-align: center;
 	display: inline;
-	float: left;
 	color: #FFFFFF;
+	float: left;
 	font-size: 1.25em;
 }
 a.footer:hover {
