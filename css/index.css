@@ -1,18 +1,25 @@
-div#mainArticle {
+article#mainArticle {
 	height: 50vh;
 	width: 100vw;
+	display: inline-block;
+	overflow: hidden;
+	float: left;
 }
 div.photoHolder {
 	display: inline-block;
-	margin:  2%;
-	max-height: 100%;
-	max-width: 70%;
+	height: 50vh;
+	width: 56vw;
+	max-height: 50vh;
+	max-width: 56vw;
+	overflow: hidden;
+	margin: 4%;
 }
 img.noscript {
 	display: inline-block;
 }
 img.photos {
 	display: none;
+	max-height: 100%;
 }
 /*
 a.photosButtons {

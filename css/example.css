@@ -20,7 +20,7 @@ div#mainContentHolder {
 nav.menu {
 	width: 20vw;
 	height: 100%;
-	background-color: #AD151D;
+	background-color: #FFFF00;
 	display: inline-block;
 	float: left;
 }
@@ -34,12 +34,12 @@ a.menu {
 	height: 20%;
 }
 a.menu:hover {
-	background-color: #0D6C64;
-	color: #AD151D;
+	background-color: #00FFFF;
+	color: #000000;
 }
 a.current {
-	background-color: #0D6C64;
-	color: #AD151D;
+	background-color: #0FFFF0;
+	color: #00FF00;
 }
 p.menuParagraph {
 	top: 50%;
@@ -52,14 +52,12 @@ p.menuParagraph {
 article.mainContent {
 	width: 80vw;
 	height: 100%;
-	max-width: 80vw;
 	display: inline-block;
-	background-color: #0D6C64;
-	overflow: hidden;
+	background-color: #666666;
 }
 footer {
 	clear: left;
-	background-color: #78A514;
+	background-color: #333333;
 	height: 25vh;
 }
 
@@ -75,10 +73,41 @@ a.footer {
 	font-size: 1.25em;
 }
 a.footer:hover {
-	color: #545454;
-	background-color: #6D9612;
+	color: #FF00FF;
+	background-color: #00FF00;
 }
 a {
 	text-decoration: none;
 }
 
+div#mainArticle {
+	height: 50vh;
+	width: 100vw;
+}
+div.photoHolder {
+	display: inline-block;
+	margin:  4%;
+	max-height: 100%;
+	max-width: 70%;
+	width: 70%;
+}
+img.noscript {
+	display: inline-block;
+}
+img.photos {
+	display: none;
+	width: 100%;
+}
+/*
+a.photosButtons {
+	color: #0000FF;
+	font-size: 4em;
+	background-color: #FF0000;
+	opacity: 50%;
+}*/
+div.mainText {
+	margin: 2%;
+	display: inline-block;
+	width: 20%;
+	vertical-align: top;
+}

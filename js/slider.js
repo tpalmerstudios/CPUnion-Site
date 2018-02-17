@@ -18,7 +18,7 @@ function slider()
 	{
 		next = 1;
 	}
-	images[next-1].style.display = "block";
+	images[next-1].style.display = "inline-block";
 	setTimeout( slider, 5000 );
 }
 
